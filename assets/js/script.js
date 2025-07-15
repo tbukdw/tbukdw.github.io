@@ -60,3 +60,22 @@ fetch("assets/json/data.json")
   
     html2pdf().set(opt).from(element).save();
   });  
+
+// To Top
+const toTopButton = document.getElementById('to-top');
+toTopButton.style.visibility = 'hidden';
+
+window.addEventListener('scroll', function(){
+    if (window.scrollY > 50) {
+        toTopButton.style.visibility = 'visible';
+    }else{
+        toTopButton.style.visibility = 'hidden';
+    }
+});
+
+toTopButton.addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
