@@ -17,7 +17,7 @@ function renderBooks(filteredBooks) {
       <img src="assets/books-img/${book.gambar}" alt="${book.judul}" class="book-image"/>
       <div class="book-content">
         <div class="book-title">${book.judul}</div>
-        <div class="book-meta">${book.penulis} | ${book.halaman} | ${book.tahun}</div>
+        <div class="book-meta">${book.penulis} | Jumlah halaman: ${book.halaman} | Tahun terbit: ${book.tahun}</div>
         <div class="book-price">${book.harga}</div>
         <div class="book-desc">${book.deskripsi}</div>
         <div class="book-buttons">
