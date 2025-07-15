@@ -6,7 +6,7 @@ function renderBooks(filteredBooks) {
 
   filteredBooks.forEach(book => {
     const message = encodeURIComponent(
-      `Halo, kak. Saya mau pesan buku "${book.judul}". Apakah stoknya masih ada? Harganya berapa, ya?`
+      `Halo, kak. Saya mau tanya buku "${book.judul}". Apakah stoknya masih ada? Harganya sesuai katalog, ya?`
     );
     const waLink1 = `https://wa.me/${book.waLink1}?text=${message}`;
     const waLink2 = `https://wa.me/${book.waLink2}?text=${message}`;
@@ -17,7 +17,7 @@ function renderBooks(filteredBooks) {
       <img src="assets/books-img/${book.gambar}" alt="${book.judul}" class="book-image"/>
       <div class="book-content">
         <div class="book-title">${book.judul}</div>
-        <div class="book-meta">${book.penulis} | ${book.kode} | ${book.halaman} | ${book.ukuran} | ${book.isbn} | ${book.tahun}</div>
+        <div class="book-meta">${book.penulis} | ${book.halaman} | ${book.tahun}</div>
         <div class="book-price">${book.harga}</div>
         <div class="book-desc">${book.deskripsi}</div>
         <div class="book-buttons">
