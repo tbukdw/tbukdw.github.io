@@ -8,13 +8,35 @@
 </head>
 <body>
   <header>
-    <h1>KATALOG Toko Buku</h1>
+    <h1>Katalog Toko Buku</h1>
     <h2>Universitas Kristen Duta Wacana (UKDW) Yogyakarta</h2>
-    <input type="text" id="search-input" placeholder="Cari judul buku..." />
+    <input type="text" id="search-input" placeholder="Cari judul buku..." autofocus>
     <button id="download-pdf">📄 Unduh PDF Katalog</button>
 
   </header>
   <main id="book-list"></main>
+  <div class="position-fixed">
+        <div id="to-top">
+            <div><span>&ShortUpArrow;</span></div>
+        </div>
+
+		<div class="contact-now-icon">
+			<a href="https://ig.me/m/tb_ukdw" target="_blank">
+				<img src="assets/img/instagram-1x.png" width="30" height="30" alt="Logo Kontak">
+			</a>
+		</div>
+
+		<div class="contact-now-text">
+			Mau <span class="text-italic">ngobrol</span>? DM Aja :-)
+		</div>
+	</div>
+  
+  <footer>
+    <small>&copy; <script> let year = new Date();document.write(year.getFullYear() );</script>. 
+        Dibuat dengan 🖤 oleh <a href="https://instagram.com/ekyzupaldry">Eky Zupaldry</a>
+    </small>
+  </footer>
+
   <script src="assets/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </body>
