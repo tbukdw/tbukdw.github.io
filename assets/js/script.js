@@ -14,6 +14,20 @@ function renderBooks(filteredBooks) {
     const bookElement = document.createElement("div");
     bookElement.className = "book";
     bookElement.innerHTML = `
+      <table class="book-meta-table">
+        <tr>
+          <td><span class="badge-pill badge-primary">Penulis</span></td>
+          <td class="meta-value">{{penulis}}</td>
+        </tr>
+        <tr>
+          <td><span class="badge-pill badge-primary">Penerbit</span></td>
+          <td class="meta-value">{{penerbit}}</td>
+        </tr>
+        <tr>
+          <td><span class="badge-pill badge-primary">Tahun Terbit</span></td>
+          <td class="meta-value">{{tahun}}</td>
+        </tr>
+      </table>
       <img src="assets/books-img/${book.gambar}" alt="${book.judul}" class="book-image"/>
       <div class="book-content">
         <div class="book-title">${book.judul}</div>
@@ -77,5 +91,6 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
