@@ -18,9 +18,7 @@ function renderBooks(filteredBooks) {
       <div class="book-content">
         <div class="book-title">${book.judul}</div>
         <div class="book-meta">Penulis: ${book.penulis} | Penerbit: ${book.penerbit} | Tahun terbit: ${book.tahun}</div>
-        <div class="book-price">${book.harga}</div>
-        <div class="book-desc">${book.deskripsi}</div>
-        <div class="book-buttons">
+         <div class="book-buttons">
           <a href="${waLink1}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 1</a>
           <a href="${waLink2}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 2</a>
         </div>
@@ -79,4 +77,5 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
