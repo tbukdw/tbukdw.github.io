@@ -17,7 +17,6 @@ h1, h2 {
 #book-list {
   display: flex;
   flex-direction: row;
-  gap: 1.5rem;
 }
 
 .book {
@@ -198,3 +197,4 @@ footer a{
   font-weight: bolder;
 
 }
+
