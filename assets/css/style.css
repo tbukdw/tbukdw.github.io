@@ -56,7 +56,16 @@ h1, h2 {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.book-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
 .book img.book-image {
+  margin: 0.5rem auto;
   width: 100%;
   max-width: 150px;
   margin-bottom: 1rem;
@@ -234,4 +243,5 @@ footer a{
   font-weight: bolder;
 
 }
+
 
