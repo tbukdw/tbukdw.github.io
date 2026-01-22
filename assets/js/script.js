@@ -35,8 +35,9 @@ function renderBooks(filteredBooks) {
         </table>
     
         <div class="book-buttons">
-          <a href="${waLink1}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 1</a>
-          <a href="${waLink2}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 2</a>
+          Tanya stok dan harga lewat WhatsApp
+          <a href="${waLink1}" target="_blank" class="btn wa">📱 WhatsApp 1</a>
+          <a href="${waLink2}" target="_blank" class="btn wa">📱 WhatsApp 2</a>
         </div>
       </div>
     `;
@@ -93,6 +94,7 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
 
