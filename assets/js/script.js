@@ -62,24 +62,6 @@ fetch("assets/json/data.json")
     });
   });
 
- document.getElementById("download-pdf").addEventListener("click", () => {
-  renderBooks(allBooks); // PAKSA render semua buku dulu
-
-  setTimeout(() => {
-    const element = document.getElementById("book-list");
-
-    const opt = {
-      margin: 0.5,
-      filename: 'katalog-toko-buku-ukdw.pdf',
-      image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2, useCORS: true },
-      jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
-    };
-
-    html2pdf().set(opt).from(element).save();
-  }, 500); // beri waktu DOM & gambar siap
-});
-
 // To Top
 const toTopButton = document.getElementById('to-top');
 toTopButton.style.visibility = 'hidden';
@@ -98,6 +80,7 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
 
