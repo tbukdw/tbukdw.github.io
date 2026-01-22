@@ -16,7 +16,7 @@ h1, h2 {
 
 #book-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1.5rem;
 }
 
@@ -196,4 +196,5 @@ footer{
 footer a{
   color: var(--color);
   font-weight: bolder;
+
 }
