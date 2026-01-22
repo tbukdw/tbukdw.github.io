@@ -16,7 +16,7 @@ h1, h2 {
 
 #book-list {
   display: grid;
-  grid-template-columns: repeat (3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -124,6 +124,20 @@ h1, h2 {
   #search-input,
   #download-pdf {
     display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  #book-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top:2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #book-list {
+    grid-template-columns: 1fr;
   }
 }
 
