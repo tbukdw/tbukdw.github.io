@@ -56,7 +56,7 @@ fetch("assets/json/data.json")
     searchInput.addEventListener("input", () => {
       const keyword = searchInput.value.toLowerCase();
       const filtered = allBooks.filter(book =>
-        book.judul.toLowerCase().includes(keyword)
+        book.judul.toLowerCase().includes(keyword) ||  book.penulis.toLowerCase().includes(keyword) ||  book.penerbit.toLowerCase().includes(keyword)
       );
       renderBooks(filtered);
     });
@@ -80,6 +80,7 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
 
