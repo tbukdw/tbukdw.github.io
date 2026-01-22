@@ -14,11 +14,10 @@ function renderBooks(filteredBooks) {
     const bookElement = document.createElement("div");
     bookElement.className = "book";
     bookElement.innerHTML = `
+      <div class="book-title">${book.judul}</div>
       <img src="assets/books-img/${book.gambar}" alt="${book.judul}" class="book-image"/>
     
-      <div class="book-content">
-        <div class="book-title">${book.judul}</div>
-    
+      <div class="book-content">    
         <table class="book-meta-table">
           <tr>
             <td><span class="badge-pill badge-primary">Penulis</span></td>
@@ -93,6 +92,7 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
 
