@@ -14,25 +14,27 @@ function renderBooks(filteredBooks) {
     const bookElement = document.createElement("div");
     bookElement.className = "book";
     bookElement.innerHTML = `
-      <table class="book-meta-table">
-        <tr>
-          <td><span class="badge-pill badge-primary">Penulis</span></td>
-          <td class="meta-value">{{penulis}}</td>
-        </tr>
-        <tr>
-          <td><span class="badge-pill badge-primary">Penerbit</span></td>
-          <td class="meta-value">{{penerbit}}</td>
-        </tr>
-        <tr>
-          <td><span class="badge-pill badge-primary">Tahun Terbit</span></td>
-          <td class="meta-value">{{tahun}}</td>
-        </tr>
-      </table>
       <img src="assets/books-img/${book.gambar}" alt="${book.judul}" class="book-image"/>
+    
       <div class="book-content">
         <div class="book-title">${book.judul}</div>
-        <div class="book-meta">Penulis: ${book.penulis} | Penerbit: ${book.penerbit} | Tahun terbit: ${book.tahun}</div>
-         <div class="book-buttons">
+    
+        <table class="book-meta-table">
+          <tr>
+            <td><span class="badge-pill badge-primary">Penulis</span></td>
+            <td class="meta-value">${book.penulis}</td>
+          </tr>
+          <tr>
+            <td><span class="badge-pill badge-primary">Penerbit</span></td>
+            <td class="meta-value">${book.penerbit}</td>
+          </tr>
+          <tr>
+            <td><span class="badge-pill badge-primary">Tahun Terbit</span></td>
+            <td class="meta-value">${book.tahun}</td>
+          </tr>
+        </table>
+    
+        <div class="book-buttons">
           <a href="${waLink1}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 1</a>
           <a href="${waLink2}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 2</a>
         </div>
@@ -91,6 +93,7 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
 
