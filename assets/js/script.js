@@ -6,7 +6,7 @@ function renderBooks(filteredBooks) {
 
   filteredBooks.forEach(book => {
     const message = encodeURIComponent(
-      `Halo, kak. Saya mau tanya buku "${book.judul}". Apakah stoknya masih ada? Harganya sesuai katalog, ya?`
+      `Halo, kak. Saya mau tanya buku "${book.judul}". Apakah stoknya masih ada? Harganya berapa, ya?`
     );
     const waLink1 = `https://wa.me/${book.waLink1}?text=${message}`;
     const waLink2 = `https://wa.me/${book.waLink2}?text=${message}`;
@@ -17,12 +17,12 @@ function renderBooks(filteredBooks) {
       <img src="assets/books-img/${book.gambar}" alt="${book.judul}" class="book-image"/>
       <div class="book-content">
         <div class="book-title">${book.judul}</div>
-        <div class="book-meta">${book.penulis} | Jumlah halaman: ${book.halaman} | Tahun terbit: ${book.tahun}</div>
+        <div class="book-meta">Penulis: ${book.penulis} | Penerbit: ${book.penerbit} | Tahun terbit: ${book.tahun}</div>
         <div class="book-price">${book.harga}</div>
         <div class="book-desc">${book.deskripsi}</div>
         <div class="book-buttons">
-          <a href="${waLink1}" target="_blank" class="btn wa">📱 Tanya Buku ini Via WhatsApp 1</a>
-          <a href="${waLink2}" target="_blank" class="btn wa">📱 Tanya Buku ini Via WhatsApp 2</a>
+          <a href="${waLink1}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 1</a>
+          <a href="${waLink2}" target="_blank" class="btn wa">📱 Tanya Stok dan Harga Via WA 2</a>
         </div>
       </div>
     `;
@@ -79,3 +79,4 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
