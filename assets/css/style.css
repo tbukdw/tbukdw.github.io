@@ -62,6 +62,7 @@ h1, h2 {
   align-items: center;
   text-align: center;
   margin-bottom: 0.75rem;
+  max-width:40%;
 }
 
 .book img.book-image {
@@ -257,6 +258,7 @@ footer a{
     break-inside: avoid;
   }
 }
+
 
 
 
