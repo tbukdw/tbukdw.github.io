@@ -33,9 +33,8 @@ function renderBooks(filteredBooks) {
             <td class="meta-value">${book.tahun}</td>
           </tr>
         </table>
-    
+        <div>Tanya stok dan harga:</div>
         <div class="book-buttons">
-          Tanya stok dan harga:
           <a href="${waLink1}" target="_blank" class="btn wa">📱 WhatsApp 1</a>
           <a href="${waLink2}" target="_blank" class="btn wa">📱 WhatsApp 2</a>
         </div>
@@ -94,6 +93,7 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
 
