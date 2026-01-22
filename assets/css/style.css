@@ -130,7 +130,7 @@ h1, h2 {
 .book-buttons {
   margin-top: 1rem;
   display: flex;
-  flex:direction:column;
+  flex-direction:column;
   gap: 0.75rem;
   flex-wrap: wrap;
 }
@@ -257,5 +257,6 @@ footer a{
     break-inside: avoid;
   }
 }
+
 
 
