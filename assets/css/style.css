@@ -34,7 +34,7 @@ body {
   color: #f0f0f0;
 }
 
-.dark-mode h1, .book-title{
+.dark-mode h1, .dark-mode.book-title{
   color: gold;
 }
 
@@ -293,4 +293,5 @@ footer a{
   .book-content {
     flex: 1;
   }
+
 }
