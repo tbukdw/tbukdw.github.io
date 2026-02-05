@@ -42,7 +42,7 @@ body {
   color: #f9f9f9;
 }
 
-.dark-mode .book-counter{
+.dark-mode #search-input{
     color: #f9f9f9;
     background-color: #101010;
 }
@@ -300,4 +300,5 @@ footer a{
   }
 
 }
+
 
