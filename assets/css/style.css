@@ -42,6 +42,11 @@ body {
   color: #f9f9f9;
 }
 
+.dark-mode .book-counter{
+    color: #f9f9f9;
+    background-color: #101010;
+}
+
 .dark-mode .book{
   background-color: #101010;
 }
@@ -295,3 +300,4 @@ footer a{
   }
 
 }
+
