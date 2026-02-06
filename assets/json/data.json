@@ -427,25 +427,11 @@
     "gambar": "dua-konteks.jpg"
   },
   {
-    "judul": "DUA KONTEKS",
-    "penulis": "Pdt. Prof. Emanuel Gerrit Singgih, Ph.D.",
-    "tahun": "2012",
-    "penerbit": "BPK Gunung Mulia",
-    "gambar": "dua-konteks.jpg"
-  },
-  {
     "judul": "DUC IN ALTUM",
     "penulis": "Pdt. Agus Wiyanto, M.Th.",
     "tahun": "2024",
     "penerbit": "BPK Gunung Mulia",
     "gambar": "duc-in-altum.jpg"
-  },
-  {
-    "judul": "DUNIA YANG BERMAKNA",
-    "penulis": "Pdt. Prof. Emanuel Gerrit Singgih, Ph.D",
-    "tahun": "2019",
-    "penerbit": "BPK Gunung Mulia",
-    "gambar": "dunia-yang-bermakna.jpg"
   },
   {
     "judul": "DUNIA YANG BERMAKNA",
@@ -560,13 +546,6 @@
     "gambar": "garis-besar-teologi-teologi-perjanjian-lama.jpg"
   },
   {
-    "judul": "GARIS BESAR TEOLOGI-TEOLOGI PERJANJIAN LAMA",
-    "penulis": "Emanuel Gerrit Singgih",
-    "tahun": "2023",
-    "penerbit": "BPK Gunung Mulia",
-    "gambar": "garis-besar-teologi-teologi-perjanjian-lama.jpg"
-  },
-  {
     "judul": "GARIS-GARIS BESAR HUKUM GEREJA",
     "penulis": "J.L.Ch. Abilene",
     "tahun": "2006",
@@ -609,18 +588,18 @@
     "gambar": "gereja-merakit.jpg"
   },
   {
-    "judul": "GEREJA PASCA PANDEMI MERENGKUH KERAPUHAN",
+    "judul": "GEREJA PASCAPANDEMI MERENGKUH KERAPUHAN",
     "penulis": "Pdt. Prof. Joas Adiprasetya, Th.D",
     "tahun": "2021",
     "penerbit": "BPK Gunung Mulia",
-    "gambar": "gereja-pasca-pandemi-merengkuh-kerapuhan.jpg"
+    "gambar": "gereja-pascapandemi-merengkuh-kerapuhan.jpg"
   },
   {
-    "judul": "GERRIT SINGGIH DALAM PERGULATAN GEREJA DAN MASYARAKAT: PERSEMBAHAN 65th Pdt. Prof. Dr. (Hc) Emanuel Gerrit Singgih. Ph.D",
+    "judul": "GERRIT SINGGIH DALAM PERGULATAN GEREJA DAN MASYARAKAT",
     "penulis": "Josef M.N. Hehanussa",
     "tahun": "2015",
     "penerbit": "BPK Gunung Mulia",
-    "gambar": "gerrit-singgih-dalam-pergulatan-gereja-dan-masyarakat-persembahan-65th-pdt.-prof.-dr.-hc-emanuel-gerrit-singgih.-ph.d.jpg"
+    "gambar": "gerrit-singgih-dalam-pergulatan-gereja-dan-masyarakat.jpg"
   },
   {
     "judul": "HAGAR DAN PUTRI-PUTRINYA",
@@ -665,11 +644,11 @@
     "gambar": "hidup-di-era-digital-gagasan-dasar-dan-modul-katekese.jpg"
   },
   {
-    "judul": "HOMILETIKA",
+    "judul": "HOMILETIKA: ILMU BERKHOTBAH",
     "penulis": "Dr. H. Rothlisberger",
     "tahun": "2006",
     "penerbit": "BPK Gunung Mulia",
-    "gambar": "homiletika.jpg"
+    "gambar": "homiletika-ilmu-berkhotbah.jpg"
   },
   {
     "judul": "HOSPITALITAS",
@@ -707,11 +686,11 @@
     "gambar": "ilmu-agama.jpg"
   },
   {
-    "judul": "IMAN KRISTEN (REVISI)",
+    "judul": "IMAN KRISTEN",
     "penulis": "Dr. Harun Hadiwijono. ",
     "tahun": "2023",
     "penerbit": "BPK Gunung Mulia",
-    "gambar": "iman-kristen-revisi.jpg"
+    "gambar": "iman-kristen.jpg"
   },
   {
     "judul": "INJIL DALAM MASYARAKAT MAJEMUK",
@@ -798,11 +777,11 @@
     "gambar": "jejak-jejak-suci-2.jpg"
   },
   {
-    "judul": "KAMUS ALKITAB (SC)",
+    "judul": "KAMUS ALKITAB",
     "penulis": "W.R.F. Browning",
     "tahun": "2009",
     "penerbit": "BPK Gunung Mulia",
-    "gambar": "kamus-alkitab-sc.jpg"
+    "gambar": "kamus-alkitab.jpg"
   },
   {
     "judul": "KAMUS YUNANI-INDONESIA",
@@ -819,11 +798,11 @@
     "gambar": "kasih-menembus-badai.jpg"
   },
   {
-    "judul": "KATALOG KITAB NYANYIAN KRISTEN BERBAHASA MELAYU",
+    "judul": "KATALOG KITAB NYANYIAN KRISTEN BERBAHASA MELAYU 1629-1942",
     "penulis": "Th. Van den End",
     "tahun": "2022",
     "penerbit": "BPK Gunung Mulia",
-    "gambar": "katalog-kitab-nyanyian-kristen-berbahasa-melayu.jpg"
+    "gambar": "katalog-kitab-nyanyian-kristen-berbahasa-melayu-1629-1942.jpg"
   },
   {
     "judul": "KEADILAN ALLAH DALAM KITAB-KITAB INJIL SINOPTIK",
@@ -1029,11 +1008,11 @@
     "gambar": "memahami-perjanjian-baru.jpg"
   },
   {
-    "judul": "MEMBERI DENGAN SUKA CITA",
+    "judul": "MEMBERI DENGAN SUKACITA",
     "penulis": "Pdt. Dr. Ulrich Beyer ",
     "tahun": "2020",
     "penerbit": "BPK Gunung Mulia",
-    "gambar": "memberi-dengan-suka-cita.jpg"
+    "gambar": "memberi-dengan-sukacita.jpg"
   },
   {
     "judul": "MEMBERITAKAN INJIL DI TENGAH MASYARAKAT MAJEMUK",
@@ -1533,5 +1512,6 @@
     "gambar": "tragedi-kekerasan-menelusuri-akar-dan-dampaknya-dari-balada-kain-habel.jpg"
   }
 ]
+
 
 
