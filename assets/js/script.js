@@ -75,8 +75,8 @@ function renderBooks(filteredBooks) {
         </table>
 
         <div class="book-buttons">
-          <a href="${waLink1}" target="_blank" class="btn wa">📱 WhatsApp 1</a>
-          <a href="${waLink2}" target="_blank" class="btn wa">📱 WhatsApp 2</a>
+          <a href="6281292238622" target="_blank" class="btn wa">📱 WhatsApp 1</a>
+          <a href="6282226529756" target="_blank" class="btn wa">📱 WhatsApp 2</a>
         </div>
 
         <em class="note">*Tanya stok dan harga lewat No. WhatsApp di atas</em>
@@ -148,6 +148,7 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
 
 
