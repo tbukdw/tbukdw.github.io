@@ -50,7 +50,7 @@ function renderBooks(filteredBooks) {
           ${highlightText(book.judul, keyword)}
         </div>
         <img src="assets/books-img/${book.gambar}" 
-            alt="${book.judul}" 
+            alt="Gambar Buku ${book.judul}" 
             class="book-image"/>
       </div>
 
@@ -148,4 +148,5 @@ toTopButton.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
 
